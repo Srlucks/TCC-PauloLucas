@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALVTur - Sua plataforma de viagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>ALVTur</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastre-se</a></li>
+                <li><a href="relatorios.html">Relatórios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="busca">
+            <h2>Encontre sua passagem de ônibus</h2>
+            <form>
+                <div class="form-group">
+                    <label for="origem">Origem:</label>
+                    <input type="text" id="origem" placeholder="De onde você vai?">
+                </div>
+                <div class="form-group">
+                    <label for="destino">Destino:</label>
+                    <input type="text" id="destino" placeholder="Para onde você vai?">
+                </div>
+                <div class="form-group">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data">
+                </div>
+                <button type="submit">Buscar Passagens</button>
+            </form>
+        </section>
+
+        <section class="destaques">
+            <h2>Destinos em Destaque</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="RiodeJaneiro.jpg" alt="Rio de Janeiro">
+                    <h3>Rio de Janeiro</h3>
+                    <p>A partir de R$ 120,00</p>
+                </div>
+                <div class="card">
+                    <img src="SaoPaulo.jpg" alt="São Paulo">
+                    <h3>São Paulo</h3>
+                    <p>A partir de R$ 90,00</p>
+                </div>
+                <div class="card">
+                    <img src="BeloHorizonte.jpg" alt="Belo Horizonte">
+                    <h3>Belo Horizonte</h3>
+                    <p>A partir de R$ 150,00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 ALVTur - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
